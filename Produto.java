@@ -8,6 +8,7 @@ public abstract class Produto {
     private double preco;
     private CategoriaProdutos categoria;
     private EstadoProduto estado;
+	private int dolar;
 
     public Produto(String nome, String marca, double preco, EstadoProduto estado) {
         this.idProduto = proxId++;
